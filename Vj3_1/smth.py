@@ -61,10 +61,10 @@ for i in range(len(device_list)):
     deviceDate = (device_list[i][4])[:10]
 
     if ((deviceDate in targetDate) and (targetTime_Start <= deviceTime) and (targetTime_End >= deviceTime)):
-        print('[RESULT] Found searched device.')
-        print('[RESULT] Device Info:')
-        print('[RESULT]         Vendor:        ' + device_list[i][0])
-        print('[RESULT]         Product ID:    ' + device_list[i][1])
-        print('[RESULT]         Revision:      ' + device_list[i][2])
-        print('[RESULT]         Serial number: ' + device_list[i][3])
-        print('[RESULT]         Date used:     ' + device_list[i][4])
+        print('[RESULT] FOUND SEARCHED DEVICE')
+        print('[RESULT] *** Device Info:')
+        print('[RESULT] ******** Vendor: ' + device_list[i][0])
+        print('[RESULT] **** Product ID: ' + device_list[i][1])
+        print('[RESULT] *****  Revision: ' + device_list[i][2])
+        print('[RESULT] * Serial number: ' + device_list[i][3])
+        print('[RESULT] ***** Date used: ' + device_list[i][4])
